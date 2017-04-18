@@ -106,8 +106,8 @@ if __name__ == '__main__':
     # Replace the API_KEY and API_SECRET with your application's key and secret
     #https://apps.twitter.com/app/4442243/keys
     '''
-    API_KEY="QMQfUOSEwcfpCQEXlikCbg"
-    API_SECRET="fta25GOPBXpENey7iw2fpGFJjBaJ9gMEq4UqBRNubO8"
+    API_KEY="KEY"
+    API_SECRET="SEC"
     auth = tweepy.AppAuthHandler(API_KEY, API_SECRET)
     '''
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
